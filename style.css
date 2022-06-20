@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -12,6 +13,7 @@ h3{
 }
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 .container{
     width: 50%;
@@ -28,4 +30,16 @@ section{
     color: white;
     border-radius: 3px;
     text-transform: uppercase;
+}
+.Information{
+    text-decoration: none;
+    background-image: linear-gradient(red, orange);
+    padding: 10px 35px ;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
