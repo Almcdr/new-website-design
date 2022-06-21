@@ -11,16 +11,16 @@ h3{
 .Orang-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
-.container{
+.Style-Use{
     width: 50%;
     padding-left: 3%;
 
 }
-.container img{
+.Style-Use img{
     width: 80%;
 }
 .link-button{
