@@ -8,12 +8,15 @@ h1{
 h3{
     font-size: 20px;
 }
+h4{
+    color: orange;
+}
 .Orang-color{
     color: orange;
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .Style-Use{
     width: 50%;
@@ -43,3 +46,36 @@ h3{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.panding{
+    text-align: center;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+ 
+    background-position: left;
+}
+
+.Landing-hod{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px rgb(107, 106, 106);
+}
+#web-dev-experiences{
+    border-left: 7px solid;
+    border-image:  linear-gradient(blue, skyblue);
+    border-image-slice: 1;
+}
+#web-style{
+    border-left: 7px solid ;
+    border-image:  linear-gradient(orange, red);
+    border-image-slice:1;
+    
+}
+footer p{
+    text-align: center;
+}
+
